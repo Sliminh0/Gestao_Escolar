@@ -1,0 +1,34 @@
+.divform{
+    background-color: rgb(118, 0, 8);
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    margin: 220px auto;
+    align-self: center;
+    align-items: center;
+}
+
+.login input{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 16px;
+    
+}
+
+.login label{
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.but{
+    align-items: center;
+    width: 300px;
+}
