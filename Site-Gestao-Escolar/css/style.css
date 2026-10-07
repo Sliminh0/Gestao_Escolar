@@ -4,8 +4,6 @@
     border-radius: 20px;
     width: 300px;
     margin: 220px auto;
-    align-self: center;
-    align-items: center;
 }
 
 .login input{
@@ -15,12 +13,19 @@
     outline: none;
     background-color: #ffffff;
     font-size: 16px;
-    
 }
 
-.login label{
-    
+#cad{
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100%;
 }
+
+#cad:hover{
+    background-color: rgb(91, 17, 17);
+    color: #ffffff;
+}
+
 
 .login{
     display: flex;
@@ -31,4 +36,33 @@
 .but{
     align-items: center;
     width: 300px;
+}
+
+@font-face {
+    font-family: tit;
+    src: url(../fontes/Coolvetica\ Rg.otf);
+}
+
+.divform{
+    color: #ffffff;
+    font-family: 'tit';
+}
+
+.org{
+    display: flex;
+    flex-direction: column;
+}
+
+.cop{
+    background-color: rgb(91, 17, 17);
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: small;
+}
+
+a:hover{
+    text-decoration: underline;
 }
