@@ -57,7 +57,7 @@
     background-color: rgb(91, 17, 17);
 }
 
-a{
+.senha{
     text-decoration: none;
     color: #ffffff;
     font-size: small;
@@ -66,3 +66,59 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+
+.sla{
+    margin: 0;
+}
+
+header {
+    background-color: rgb(91, 17, 17);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+  }
+  
+  /* Esconde o checkbox */
+  #menu-toggle {
+    display: none;
+  }
+  
+  /* Botão hambúrguer */
+  .hamburguer {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Menu escondido */
+  nav {
+    display: none;
+  
+    position: absolute;
+    top: 100%;
+    right: 0;
+  
+    background-color: rgb(91, 17, 17);
+    width: 200px;
+    padding: 20px;
+  }
+  
+  /* Quando o checkbox estiver marcado, mostra o menu */
+  #menu-toggle:checked ~ nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
