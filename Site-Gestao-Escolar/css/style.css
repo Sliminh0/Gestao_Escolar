@@ -122,3 +122,151 @@ header {
     color: white;
     text-decoration: none;
   }
+
+
+
+.alinhar:hover{
+        text-shadow: 0 0 10px rgb(248, 255, 244), 0 0 20px rgb(248, 255, 244), 0 0 30px rgb(248, 255, 244);
+        font-size: 55px;
+}
+
+.tudo{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    height: 100%;
+    margin-left: 60%;
+    text-decoration: none;
+    font-family: 'sla';
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.divform{
+    background-color: #ff3bb4;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    margin: 130px auto;
+    margin-top: 20px;
+}
+
+
+.titulo{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'sla';
+    margin-top: -10px;
+}
+
+.formularios{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.formularios label{
+    color: #fff;
+    font-family: 'marca';
+}
+.formularios input{
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+.formularios input::placeholder{
+    color: #000000;
+}
+
+#cad{
+    background-color: #ff61da;
+    font-family: 'marca';
+    color: #ffffff;
+}
+
+.formularios select{
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.formularios textarea{
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    background: #eb25b3;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+table tr:hover {
+    background-color: #dbeafe;
+    transition: 0.3s;
+}
+
+/* Botões */
+.btn-editar,
+.btn-excluir {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btn-editar {
+    background-color: #22c55e;
+}
+
+.btn-editar:hover {
+    background-color: #16a34a;
+}
+
+.btn-excluir {
+    background-color: #ef4444;
+}
+
+.btn-excluir:hover {
+    background-color: #dc2626;
+}

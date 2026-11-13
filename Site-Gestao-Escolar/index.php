@@ -21,7 +21,7 @@
 
         <div class="org">
             
-                <label for="peso">Senha</label>
+                <label for="senha">Senha</label>
                 <input type="password" id="senha" name="senha" required>
                 
                 <label > <a href="" class="senha"> Esqueceu a senha? </a></label>
