@@ -1,4 +1,4 @@
-.divform{
+.divformm{
     background-color: rgb(118, 0, 8);
     padding: 30px;
     border-radius: 20px;
@@ -19,11 +19,14 @@
     cursor: pointer;
     transition: 0.2s;
     width: 100%;
-}
-
-#cad:hover{
     background-color: rgb(91, 17, 17);
     color: #ffffff;
+}
+
+
+#cad:hover{
+    background-color: rgb(249, 236, 236);
+    color: #000000;
 }
 
 
@@ -70,10 +73,11 @@ a:hover{
 
 .sla{
     margin: 0;
+    background-color: rgb(91, 17, 17);
 }
 
 header {
-    background-color: rgb(91, 17, 17);
+    background-color: rgb(118, 0, 8);
     padding: 15px 20px;
     display: flex;
     align-items: center;
@@ -86,19 +90,16 @@ header {
     font-size: 24px;
   }
   
-  /* Esconde o checkbox */
   #menu-toggle {
     display: none;
   }
   
-  /* Botão hambúrguer */
   .hamburguer {
     color: white;
     font-size: 30px;
     cursor: pointer;
   }
   
-  /* Menu escondido */
   nav {
     display: none;
   
@@ -111,7 +112,6 @@ header {
     padding: 20px;
   }
   
-  /* Quando o checkbox estiver marcado, mostra o menu */
   #menu-toggle:checked ~ nav {
     display: flex;
     flex-direction: column;
@@ -122,8 +122,6 @@ header {
     color: white;
     text-decoration: none;
   }
-
-
 
 .alinhar:hover{
         text-shadow: 0 0 10px rgb(248, 255, 244), 0 0 20px rgb(248, 255, 244), 0 0 30px rgb(248, 255, 244);
@@ -140,19 +138,17 @@ header {
     font-family: 'sla';
 }
 
-
-
 a{
     text-decoration: none;
 }
 
 .divform{
-    background-color: #ff3bb4;
-    padding: 30px;
-    border-radius: 20px;
-    width: 400px;
     margin: 130px auto;
     margin-top: 20px;
+    background-color: rgb(118, 0, 8);
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
 }
 
 
@@ -174,6 +170,7 @@ a{
     color: #fff;
     font-family: 'marca';
 }
+
 .formularios input{
     padding: 12px;
     border-radius: 12px;
@@ -184,12 +181,6 @@ a{
 }
 .formularios input::placeholder{
     color: #000000;
-}
-
-#cad{
-    background-color: #ff61da;
-    font-family: 'marca';
-    color: #ffffff;
 }
 
 .formularios select{
@@ -244,7 +235,6 @@ table tr:hover {
     transition: 0.3s;
 }
 
-/* Botões */
 .btn-editar,
 .btn-excluir {
     text-decoration: none;

@@ -9,7 +9,7 @@
 </head>
 <body class="cop">
 
-<div class="divform">
+<div class="divformm">
     <h2 class="titulo">Login</h1>
 
     <form action="../php/salvar.php" method="post" class="login">
