@@ -46,14 +46,10 @@
     src: url(../fontes/Coolvetica\ Rg.otf);
 }
 
-.divform{
-    color: #ffffff;
-    font-family: 'tit';
-}
-
 .org{
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .cop{
