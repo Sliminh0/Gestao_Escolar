@@ -121,3 +121,12 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   CONSTRAINT `usuario_ibfk_2`
     FOREIGN KEY (`id_aluno`) REFERENCES `aluno` (`id_aluno`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO usuario (email, senha_hash, tipo_usuario, id_professor, id_aluno)
+VALUES (
+  'admin@escola.com',
+  '$2y$10$JAcpooErUpxO/RoHRU8PN.mJywRG5Ma8VAbWf4N0UJVx88L6yWeXy',
+  'Administrador',
+  NULL,
+  NULL
+);
