@@ -6,13 +6,13 @@
         $servidor = "localhost";
         $usuario  = "root";
         $senha    = "";
-        $banco    = "finalescolar";
+        $banco    = "Gestao_Escolar";
     } else {
-        // >>> PREENCHA com os dados do painel do InfinityFree (menu "MySQL Databases") <<<
-        $servidor = "sqlXXX.infinityfree.com";   // Hostname (NÃO é localhost)
-        $usuario  = "if0_XXXXXXXX";               // MySQL Username
-        $senha    = "SUA_SENHA_AQUI";             // senha da conta de hospedagem
-        $banco    = "if0_XXXXXXXX_nome";          // nome completo do banco, com o prefixo
+
+        $servidor = "sql109.infinityfree.com";   
+        $usuario  = "if0_43544716";           
+        $senha    = "p4hG9Qf7Atbqdr";           
+        $banco    = "if0_43544716_GestaoEscolar";   
     }
 
     $sql = new mysqli($servidor, $usuario, $senha, $banco);
